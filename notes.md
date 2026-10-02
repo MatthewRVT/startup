@@ -4,6 +4,8 @@ This file represents what I have learned about web programming.
 
 This is for an initial change to see if git is setup
 
+I love web programming
+
 - [My startup](https://startup.cs260.click)
 - [My simon](https://simon.cs260.click)
 
