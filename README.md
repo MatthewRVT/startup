@@ -6,7 +6,7 @@
 
 This site encourages its players to complete a set of puzzles or a "puzzle box" trying for a faster time. Or to challenge their friends to see who can complete the same puzzle box faster.
 
-### Design
+### Design Sketches
 
 <div>
   <img src="images/home_page.jpg" alt="home page" width="180">
