@@ -9,7 +9,7 @@ This site encourages its players to complete a set of puzzles or a "puzzle box" 
 ### Design Sketches
 
 <div>
-  <img src="images/home_page.jpg" alt="home page" width="180">
+  <img src="home_page.jpg" alt="home page" width="180">
   <img src="images/play_menu.jpg" alt="play menu" width="180">
   <img src="images/puzzle.jpg" alt="puzzle" width="180">
   <img src="images/puzzle2.jpg" alt="puzzle2" width="180">
