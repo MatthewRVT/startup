@@ -4,7 +4,7 @@
 
 ### Elevator pitch
 
-The site allows for players to compete in a puzzle gauntlet against other players that have challenged them or against themselves for a best time
+This site encourages its players to complete a set of puzzles or a "puzzle box" trying for a faster time. Or to challenge their friends to see who can complete the same puzzle box faster.
 
 ### Design
 
@@ -21,7 +21,7 @@ sequenceDiagram
 
 ### Key features
 
-The home page will allow you to start a new "puzzlebox" generating a set of puzzles and starting a timer for you to complete them. There will be a page where you can view your fastest puzzle times if you are logged in as well as the results of previous "puzzle boxing matches". Additionally you can challenge another user to a "boxing match" where you will complete the provided puzzle set then your opponent will be notified of your time and given the chance to do the same randomized puzzles trying for a faster time. Among the puzzles I'm thinking a slide
+The home page will allow you to start a new "puzzlebox" generating a set of puzzles and starting a timer for you to complete them. There will be a page where you can view your fastest puzzle times if you are logged in as well as the results of previous "puzzle boxing matches". Additionally you can challenge another user to a "boxing match" where you will complete the provided puzzle set then your opponent will be notified of your time and given the chance to do the same randomized puzzles trying for a faster time.
 
 ### Technologies
 
