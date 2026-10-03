@@ -8,16 +8,14 @@ This site encourages its players to complete a set of puzzles or a "puzzle box" 
 
 ### Design
 
-![Design image](placeholder.png)
+<div>
+  <img src="images/home_page.jpg" alt="home page" width="180">
+  <img src="images/play_menu.jpg" alt="play menu" width="180">
+  <img src="images/puzzle.jpg" alt="puzzle" width="180">
+  <img src="images/puzzle2.jpg" alt="puzzle2" width="180">
+  <img src="images/results.jpg" alt="results page" width="180">
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
 
 ### Key features
 
