@@ -6,18 +6,16 @@
 
 This site encourages its players to complete a set of puzzles or a "puzzle box" trying for a faster time. Or to challenge their friends to see who can complete the same puzzle box faster.
 
-### Design
+### Design Sketches
 
-![Design image](placeholder.png)
+<div>
+  <img src="images/home_page.jpg" alt="home page" width="180">
+  <img src="images/play_menu.jpg" alt="play menu" width="180">
+  <img src="images/puzzle.jpg" alt="puzzle" width="180">
+  <img src="images/puzzle2.jpg" alt="puzzle2" width="180">
+  <img src="images/results.jpg" alt="results page" width="180">
+</div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-```mermaid
-sequenceDiagram
-    actor You
-    actor Website
-    You->>Website: Replace this with your design
-```
 
 ### Key features
 
@@ -41,12 +39,12 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Git commit requirement)
-- [ ] Proper use of Markdown
-- [ ] A concise and compelling elevator pitch
-- [ ] Description of key features
-- [ ] Description of how you will use each technology including your 3rd party API and use of WebSocket
-- [ ] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] I completed the prerequisites for this deliverable (Git commit requirement) by setting up my startup and commiting
+- [x] Proper use of Markdown by editing this file
+- [x] A concise and compelling elevator pitch by adding the elevator pitch at the top of the page
+- [x] Description of key features by adding the key features section
+- [x] Description of how you will use each technology including your 3rd party API and use of WebSocket by adding the technologies section
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references. I added rough whiteboard sketches in the design sketches section
 
 ## 🚀 AWS deliverable
 
