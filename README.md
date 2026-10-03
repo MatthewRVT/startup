@@ -39,12 +39,12 @@ I am going to use the required technologies in the following ways.
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] I completed the prerequisites for this deliverable (Git commit requirement)
-- [x] Proper use of Markdown
-- [x] A concise and compelling elevator pitch
-- [x] Description of key features
-- [x] Description of how you will use each technology including your 3rd party API and use of WebSocket
-- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references.
+- [x] I completed the prerequisites for this deliverable (Git commit requirement) by setting up my startup and commiting
+- [x] Proper use of Markdown by editing this file
+- [x] A concise and compelling elevator pitch by adding the elevator pitch at the top of the page
+- [x] Description of key features by adding the key features section
+- [x] Description of how you will use each technology including your 3rd party API and use of WebSocket by adding the technologies section
+- [x] One or more rough sketches of your application. Images must be embedded in this file using Markdown image references. I added rough whiteboard sketches in the design sketches section
 
 ## 🚀 AWS deliverable
 
