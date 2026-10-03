@@ -8,6 +8,8 @@ This site encourages its players to complete a set of puzzles or a "puzzle box" 
 
 ### Design Sketches
 
+![home page](home_page.jpg)
+
 <div>
   <img src="home_page.jpg" alt="home page" width="180">
   <img src="play_menu.jpg" alt="play menu" width="180">
