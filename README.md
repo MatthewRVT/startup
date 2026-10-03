@@ -1,17 +1,10 @@
-# Your startup name here
+# Puzzle Boxing
 
 [My Notes](notes.md)
 
-This is a fun little puzzle website for you to compete with your friends for a faster time
-
-This is my alteration on the github site to see if I can pull changes
-
-> [!NOTE]
-> If you are not familiar with Markdown then you should review the [documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) before continuing.
-
 ### Elevator pitch
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This site encourages its players to complete a set of puzzles or a "puzzle box" trying for a faster time. Or to challenge their friends to see who can complete the same puzzle box faster.
 
 ### Design
 
@@ -28,20 +21,18 @@ sequenceDiagram
 
 ### Key features
 
-- Describe your key feature
-- Describe your key feature
-- Describe your key feature
+The home page will allow you to start a new "puzzlebox" generating a set of puzzles and starting a timer for you to complete them. There will be a page where you can view your fastest puzzle times if you are logged in as well as the results of previous "puzzle boxing matches". Additionally you can challenge another user to a "boxing match" where you will complete the provided puzzle set then your opponent will be notified of your time and given the chance to do the same randomized puzzles trying for a faster time.
 
 ### Technologies
 
 I am going to use the required technologies in the following ways.
 
-- **HTML** - Description here
-- **CSS** - Description here
-- **React** - Description here
-- **Service** - Description here
-- **DB/Login** - Description here
-- **WebSocket** - Description here
+- **HTML** - For the basic structure and functionality of the website
+- **CSS** - For styling of the site and handling of window resizing
+- **React** - For advanced functionality of the site, buttons for the puzzles. Actually making it function 
+- **Service** - One of the puzzles will use a rest API to get a quote and ask you to guess who the author is
+- **DB/Login** - So players can record their fastest puzzle times
+- **WebSocket** - Used to challenge other players. This will be done by sending your time and the same puzzle you completed to your opponent
 
 ## 🚀 Specification Deliverable
 
