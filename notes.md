@@ -17,8 +17,9 @@ I love web programming
 
 ## AWS
 
-Interesting things I have learned about AWS
-
+don't forget to stop paying for this after the class
+http://107.20.193.211/
+../key/newcs260key.pem
 ## HTML
 
 Interesting things I have learned about HTML
