@@ -9,6 +9,8 @@ I love web programming
 - [My startup](https://startup.cs260.click)
 - [My simon](https://simon.cs260.click)
 
+- remember to run the deploy command in the simon directory
+
 ## Helpful links
 
 - [Course instruction](https://github.com/webprogramming260)
