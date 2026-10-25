@@ -17,8 +17,9 @@
         <menu>
           <li><a href="index.html">Home</a></li>
           <li><a href="play.html">Play</a></li>
-          <!-- <li><a href="challenge.html">Challenge</a></li> -->
+          <li><a href="challenge.html">Challenge</a></li>
           <li><a href="login.html">Login</a></li>
+          <li><a href="stats.html">Stats</a></li>
         </menu>
       </nav>
 
@@ -28,10 +29,26 @@
 
     <main>
       <div>
+        <h1>Find an opponent</h1>
+        <label for="username">Username</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter username"
+        autocomplete="username"
+        required
+      >
         <button>
-
+            challenge
         </button>
+        <button>
+          challenge random
+        </button>
+        <p>this is to find a specific opponent or to challenge someone random</p>
       </div>
+
+      <p>you will get a notification when you've been challenged that you may view on the home or stats pages. This will reflect the websocket implementation</p>
 
     </main>
 
