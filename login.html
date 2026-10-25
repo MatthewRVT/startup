@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="images/locked_box.jpg"  />
   </head>
   <body>
     <header>
@@ -23,45 +23,68 @@
     </header>
 
     <main>
-      <!-- <table>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Name</th>
-            <th>Score</th>
-            <th>Date</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>도윤 이</td>
-            <td>34</td>
-            <td>May 20, 2021</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Annie James</td>
-            <td>29</td>
-            <td>June 2, 2021</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td>Gunter Spears</td>
-            <td>7</td>
-            <td>July 3, 2020</td>
-          </tr>
-        </tbody>
-      </table> -->
+      <body>
+
+  <div class="login-box">
+    <h2>Login</h2>
+
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input
+        type="text"
+        id="username"
+        name="username"
+        placeholder="Enter your username"
+        autocomplete="username"
+        required
+      >
+
+      <label for="password">Password</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        autocomplete="current-password"
+        required
+      >
+
+      <button type="submit">Login</button>
+
+      <p id="message" role="status"></p>
+    </form>
+  </div>
+
+  <script>
+    const form = document.getElementById("loginForm");
+    const message = document.getElementById("message");
+
+    form.addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const username = document.getElementById("username").value;
+      const password = document.getElementById("password").value;
+
+      if (username.trim() === "" || password === "") {
+        message.textContent = "Please enter both fields.";
+        return;
+      }
+
+      message.style.color = "green";
+      message.textContent = "Yippee, connect to a database here";
+    });
+  </script>
+
+</body>
     </main>
 
     <footer>
       <hr />
       <div class="text-reset">A website made by Matthew Van Tuyl
       </div>
-      <span>Shoutout to </span>
+      <!-- <span>Shoutout to </span>
       <span>[wherever I got the icons]</span>
-      <span> for the icons used on this site</span>
+      <span> for the icons used on this site</span> -->
       <br />
       <a href="https://github.com/MatthewRVT/startup">GitHub</a>
     </footer>

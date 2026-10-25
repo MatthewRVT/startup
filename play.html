@@ -5,14 +5,12 @@
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Play</title>
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="images/boxing_glove.png" />
   </head>
   <body>
     <!-- Use header, main, and footer elements to give semantic structure -->
     <header>
       <h1>PuzzleBoxing</h1>
-
-      <!-- Navigation elements -->
       <nav>
         <menu>
           <li><a href="index.html">Home</a></li>
@@ -22,42 +20,87 @@
         </menu>
       </nav>
 
+      <h2>
+        <img src = "images/timer.png" width="200">
+        <p>this is a placeholder for a timer</p>
+      </h2>
+
+
       <!-- Since we don't have the ability to style we use old style HTML to give some visual formatting -->
       <hr />
     </header>
 
     <main>
-  <div class="radio-group">
-    <label>
-      <input type="radio" name="puzzle_selected" value="puzzle1">
-      Puzzle1
-    </label>
+  <p>these radio buttons will determine what puzzle is displayed, note that one or more of the puzzles will have a 3rd party call</p>
 
-    <label>
-      <input type="radio" name="puzzle_selected" value="puzzle2">
-      Puzzle2
-    </label>
-
-    <label>
-      <input type="radio" name="puzzle_selected" value="puzzle3">
-      Puzzle3
-    </label>
-
-    <label>
-      <input type="radio" name="puzzle_selected" value="puzzle4">
-      Puzzle4
-    </label>
+   <div id="puzzleDisplay">
+    Select a puzzle to begin
   </div>
-  <p>these radio buttons will determine what puzzle is selected</p>
+
+ 
+<div class="radio-group">
+
+    <label>
+      <input type="radio" name="choice" value="one">
+      Puzzle 1
+    </label>
+
+    <label>
+      <input type="radio" name="choice" value="two">
+      Puzzle 2
+    </label>
+
+    <label>
+      <input type="radio" name="choice" value="three">
+      Puzzle 3
+    </label>
+
+    <label>
+      <input type="radio" name="choice" value="four">
+      Puzzle 4
+    </label>
+
+  </div>
+
+  <!-- JavaScript -->
+  <script>
+    const textBox = document.getElementById("puzzleDisplay");
+
+    const choices = document.querySelectorAll(
+      'input[name="choice"]'
+    );
+
+    choices.forEach(function(radio) {
+      radio.addEventListener("change", function() {
+
+        if (this.value === "one") {
+          textBox.textContent = "This will display puzzle1";
+        }
+
+        if (this.value === "two") {
+          textBox.textContent = "This will display puzzle2";
+        }
+        if (this.value === "three") {
+          textBox.textContent = "This will display puzzle3";
+        }
+
+        else if (this.value === "four") {
+          textBox.textContent = "This will display puzzle4";
+        }
+
+      });
+    });
+  </script>
+
     </main>
 
     <footer>
       <hr />
       <div class="text-reset">A website made by Matthew Van Tuyl
       </div>
-      <span>Shoutout to </span>
+      <!-- <span>Shoutout to </span>
       <span>[wherever I got the icons]</span>
-      <span> for the icons used on this site</span>
+      <span> for the icons used on this site</span> -->
       <br />
       <a href="https://github.com/MatthewRVT/startup">GitHub</a>
     </footer>
