@@ -50,23 +50,23 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Rented EC2 server** - I did not complete this part of the deliverable.
-- [ ] **Leased domain name** - I did not complete this part of the deliverable.
-- [ ] **Server accessible** from my domain: [https://yourdomainnamehere.click](https://yourdomainnamehere.click) - I did not complete this part of the deliverable.
+- [x] **Rented EC2 server**
+- [x] **Leased domain name** - puzzleboxing.click
+- [x] **Server accessible** from my domain: [https://puzzleboxing.click]
 
 ## 🚀 HTML deliverable
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
+- [x] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
+- [x] **HTML pages** - I implemented the pages, index, play, challenge, login, and stats
+- [x] **Proper HTML element usage** - there are proper usage of html elements on every page
+- [x] **Links** - there is a navigation element at the top of every page linking to the others
+- [x] **Text** - There is text explaining what parts of the website are supposed to do
+- [x] **3rd party API placeholder** - on the play.html page there is an element that will have a 3rd party api call
+- [x] **Images** - there are nessicary images or placeholders on the site
+- [x] **Login placeholder** - There is a login placeholder see login.html
+- [x] **DB data placeholder** - There is a DB data placeholder see stats.html
 - [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
 
 ## 🚀 CSS deliverable
