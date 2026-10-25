@@ -67,7 +67,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Images** - there are nessicary images or placeholders on the site
 - [x] **Login placeholder** - There is a login placeholder see login.html
 - [x] **DB data placeholder** - There is a DB data placeholder see stats.html
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [x] **WebSocket placeholder** - there is a Websocket placeholder on chellenge.html and stats.html
 
 ## 🚀 CSS deliverable
 
